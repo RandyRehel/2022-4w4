@@ -345,6 +345,15 @@ template {
   display: none;
 }
 
+.site__footer {
+  grid-area: footer;
+  background-color: #a4bda4;
+  box-shadow: 5px 5px 10px black;
+  margin-top: 2em;
+  text-align: center;
+  padding: 2%;
+}
+
 .principal {
   margin: 20px;
 }
@@ -557,10 +566,5 @@ html {
 .site__main {
   grid-area: main;
   background-color: #232c23;
-}
-
-.site__footer {
-  grid-area: footer;
-  background-color: #a4bda4;
 }
 /*# sourceMappingURL=style.css.map */
