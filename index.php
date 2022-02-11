@@ -12,7 +12,7 @@
                         $titre = get_the_title();
                         $titreFiltre =  substr($titre,7);
                         $titreFiltre = substr($titreFiltre, 0, strrpos($titreFiltre, '('));
-                        $nb_heure = "xxx";
+                        $nb_heure = substr($titre, -6);
                         ?>
                     <h3 class="cours__titre"><?php echo $titreFiltre; ?></h3>
                     <p class="cours__sigle"><?php echo substr(get_the_title(),0,7);?></p>
